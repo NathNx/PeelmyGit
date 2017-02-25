@@ -134,12 +134,12 @@ c5 <- rep(c(0,1), 5)
 
 # combine above vectors as data frame
 ColorData <- data.frame(ID = c1,
-						Name = c2,
-						Weight = c3,
-						Type = c4,
-						Class = c5,
-						Role = rep(c("root", 'user')),
-						Token = (c1*rnorm(1))) # Token will be calculated column
+                        Name = c2,
+                        Weight = c3,
+                        Type = c4,
+                        Class = c5,
+                        Role = rep(c("root", 'user')),
+                        Token = (c1*rnorm(1))) # Token will be calculated column
 
 # how data frame looks like
 ColorData
