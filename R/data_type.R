@@ -119,6 +119,9 @@ myarray <- array(c(data1,data2, data3, data4),
                                  c("Sale1", "Sale2", "Sale3", "Sale4"),
                                  c(2015, 2016, 2017)))
 
+# how array looks like
+myarray
+
 
 
 
