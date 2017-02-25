@@ -39,7 +39,7 @@ A <- B
 
 A
 
-# remove both two variables from current environment
+# remove all three variables from current environment
 rm(A)
 rm(B)
 rm(C)
