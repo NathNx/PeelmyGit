@@ -183,7 +183,7 @@ View(ColorData)
 # check what we have in our environment (obj/var name)
 ls()
 
-# combine all object we have into list
+# combine objects we have into list
 final.list <- list(A, B, C, D,
                    v1, v2, v3,
                    vec_1, vec_2, vec_3,
