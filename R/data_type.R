@@ -49,15 +49,15 @@ B
 C
 
 
-#### Scalar ####
+#### Atomic ####
 
-# create dummy scalar
+# create dummy atomic
 A <- 2017
 B <- 'My name is Py'
 C <- 20L
 D <- "Z"
 
-# how scalar looks like
+# how atomic looks like
 A
 B
 C
