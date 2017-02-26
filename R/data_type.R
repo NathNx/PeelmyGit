@@ -79,6 +79,8 @@ vec_2
 vec_3
 
 
+
+
 #### Factor ####
 
 # create dummy vector (I generate 100 data records in 5 classes with the following probability accordingly)
@@ -95,6 +97,8 @@ Tee.size <- factor(Tee.size, levels = c("S", "M", "L", "XL", "XXL"))
 
 # let's check it again
 levels(Tee.size)
+
+
 
 
 #### Matrix ####
