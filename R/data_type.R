@@ -92,7 +92,7 @@ class(vec_4) # check class of vector
 
 vec_4 #see how it looks
 
-# numeric it is, right?
+# numeric it is!
 
 vec_4 <- c(1,2,3,2.3) # try add 2.3
 
