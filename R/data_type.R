@@ -84,6 +84,32 @@ vec_1
 vec_2
 vec_3
 
+# now I will try adding different type of atomic to my vector and see what's happen
+
+vec_4 <- c(1,2,3)
+
+class(vec_4) # check class of vector
+
+vec_4 #see how it looks
+
+# numeric it is, right?
+
+vec_4 <- c(1,2,3,2.3) # try add 2.3
+
+class(vec_4) # check class again
+
+vec_4 # see how it looks
+
+# but still showing numeric, right? try the following function
+is.double(vec_4)
+is.integer(vec_4)
+
+# all good? yep. becuase double is one of numeric class
+
+vec_4 <- c(1,2,3,2.3,"potato") # try add character
+
+# see how it looks like
+vec_4
 
 
 
