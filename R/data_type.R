@@ -11,7 +11,7 @@
 
 #### Assign New Variable/Object ####
 
-## Try type the following code in R console and see what's happend.
+## Try type the following code in R console and see what's happen.
 
 # assign value to an A
 A <- 1
@@ -182,7 +182,7 @@ myarray
 # create data vectors
 c1 <- 1:10
 c2 <- rep(c("Red", "Blue", 'Green', "Yellow", 'Purple'), 2)
-c3 <- abs(rnorm(10)) # abs for absolute, rnorm for ramdon number
+c3 <- abs(rnorm(10)) # abs for absolute, rnorm for random number
 c4 <- rep("Shade", 10) # rep for replicate number
 c5 <- rep(c(0,1), 5)
 
