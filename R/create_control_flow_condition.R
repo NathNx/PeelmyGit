@@ -105,7 +105,7 @@ print(res2)
 
 #### create condition "IF with ELSE IF and ELSE" ####
 
-# create some objects for our slot machine
+# create object
 
 x <- sample(x = 1:100, size = 1) # randomly generate integer from range 1 to 100
 print(x)
