@@ -199,6 +199,10 @@ slot.machine <- function (chip) {
   
 }
 
+# try it
+slot.machine(5)
+slot.machine(10)
+slot.machine(15)
 
 #### create condition with "switch" ####
 
