@@ -283,8 +283,8 @@ test2 <- function(input) {
 
 # performance benchmark
 library(microbenchmark)
-bech.res <- microbenchmark(test1("case9"), test2("case9"), times = 1000)
-print(bech.res)
+benchmark.res <- microbenchmark(test1("case9"), test2("case9"), times = 1000)
+print(benchmark.res)
 
 # visualize benchmark result
-boxplot(bech.res)
+boxplot(benchmark.res)
