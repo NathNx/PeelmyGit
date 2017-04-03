@@ -1,6 +1,6 @@
 #### @ DESCRIPTION @ ####
 # 
-# R - Control Flow (If, Else)
+# R - Control Flow with Condition IF, ELSE etc.
 # by NattN 
 # Mar 31, 2017
 # https://www.peelmyonions.com
