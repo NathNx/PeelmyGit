@@ -119,7 +119,7 @@ if (x <= 20){ #if x is less than or equal to 20
   
   print("condition 2")
   
-}else if (x >= 90){ #if x is equal or more to 90
+}else if (x >= 90){ #if x is equal to or more than 90
   
   print("condition 3")
   
