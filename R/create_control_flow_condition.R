@@ -143,7 +143,7 @@ slot.machine <- function (chip) {
   chip.check <- c(5, 10, 15) # a vector
   
   # check chip
-  if (any(chip %in% chip.check) == TRUE){ # if at least one value in a vector is TRUE (a.k.a. summaryize to single logical)
+  if (any(chip %in% chip.check) == TRUE){ # if at least one value in a vector is TRUE (a.k.a. summaryize to single logical), %in% means get x if it exists in y
     
     # create reel data
     reel.data <- c("Cherry", "Banana", "Grape", "Joker", "7")
