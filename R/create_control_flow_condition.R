@@ -173,7 +173,7 @@ slot.machine <- function (chip) {
     
     if (all(final.res == "7")) {
       
-      cat(final.res, "-- Congrat! what's the odd!")
+      cat(final.res, "-- Congrats! what's the odd!")
       
     }else if (all(final.res == "Banana")){
       
